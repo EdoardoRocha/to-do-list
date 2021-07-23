@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+
+    <link rel="stylesheet" href="estilo/bootstrap.min.css">
+
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+   <div class="container-fluid">
+      <div class="row">
+           <div class="col-sm-4">
+                 <img src="src/img/ex9_1.jpg" alt="Tarefas" class="imgProg">
+           </div>
+
+
+           <div class="col-sm-8" id="divQuadro">
+                <h1>Tarefas do Dia (a realizar)</h1>
+                <p>
+                    <label for="inTarefa">Tarefa</label>
+                    <input type="text" name="" id="inTarefa"class="form-control" autofocus placeholder="Adicione as tarefas aqui">
+                </p>
+                <p>
+                    <input type="button" value="Adicionar &#x10003" id="btAdicionar" class="btn btn-primary">
+                    <input type="button" value="Selecionar &#8645" id="btSelecionar" class="btn btn-info">
+                    <input type="button" value="Retirar Selecionada &#10007" id="btRetirar" class="btn btn-danger">
+                    <input type="button" value="Gravar &#9673" id="btGravar" class="btn btn-sucess"> 
+                    <input type="button" id="btConcluido" value="Tarefas concluidas ✔️" class="btn btn-success">   
+                </p>
+           </div>
+      </div>
+   </div>
+   <script src="js/lista.js"></script>
+</body>
+</html>
