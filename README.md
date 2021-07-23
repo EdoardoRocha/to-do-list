@@ -28,7 +28,7 @@
      
 ## What does this algorithm consist of?
 
-Basically this algorithm consists of taking a date, an amount and an interest rate. It ends the algorithm by calculating and handing you the interest to be supposedly "Paid"
+Well! Let's talk about what this algorithm consists of. Basically this is a BETA algorithm is still in "construction", but its purpose is basically to have a web application of a kind of notepad, and be as simple as possible to use, as the client will not need to download and will not lose the list if it closes or something happens that it has to leave the page.
 
 ## Technologies used
 
@@ -38,11 +38,13 @@ Basically this algorithm consists of taking a date, an amount and an interest ra
   <td>JavaScript</td>
   <td>HTML</td>
   <td>CSS</td>
+  <td> BOOTSTRAP</td>
  </tr>
  <tr> 
   <td> ECMAS v8.0</td>
   <td> v5.0 </td>
   <td>v3.0</td>
+  <td>v4.0.0</td>
  </tr>
 </table>
 
